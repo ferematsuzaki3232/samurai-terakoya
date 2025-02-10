@@ -1,0 +1,17 @@
+@charset "utf-8";
+.flexbox-container {
+    display: flex;
+    /* 並び順を右から左へ↓ */
+    /* flex-direction: row-reverse; */
+    /* アイテムの折り返し、上から下に並べる↓ */
+    /* flex-wrap: wrap; */
+    /* アイテムを折り返し、下から上に並べる↓ */
+    flex-wrap: wrap-reverse;
+    padding: 5px;
+    background-color: lightcyan;
+ }
+ .flexbox-item {
+    padding: 5px;
+    margin: 5px;
+    background-color: orange;
+ }
