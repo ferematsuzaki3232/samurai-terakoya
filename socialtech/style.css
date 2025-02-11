@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{
+max-width: 1080px;
+margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav#nav-pc{
+    font-size: 14px;
+}
+nav#nav-pc ul{
+    display: flex;
+    padding-left: 0;
+}
+nav#nav-pc ul li{
+    list-style: none;
+}
+nav#nav-pc ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #0d0d0d;
+}
+nav#nav-pc ul li a:hover{
+    text-decoration: underline;
+}
