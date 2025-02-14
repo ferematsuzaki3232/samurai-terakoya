@@ -1,10 +1,10 @@
+/* うまくいったコーディング */
 @charset "utf-8";
-h1,
-p,
-body{
+
+h1, p, body{
     margin: 0;
 }
-p,a{
+p ,a {
     font-size: 20px;
 }
 header{
@@ -13,59 +13,61 @@ header{
     text-align: center;
 }
 h1{
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
 }
 main{
     padding: 10px;
 }
-div#parent{
-  display: flex;  
-  justify-content: space-around;
+#parent{
+    display: flex;
+    justify-content: space-around;
 }
-div.contents{
-    border: solid 3px rgb(238,204,204);
+.contents{
+    border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
     margin: 20px 0;
     text-align: center;
 }
-div.contents img{
-    margin: 10px 0;
-    flex-basis: 70%;
-}
 h2{
     font-size: 25px;
-    border-bottom: dotted 3px rgb(236,122,122);
+    border-bottom: 3px dotted rgb(236, 122, 122);
 }
 h2::before{
+    color: rgb(239, 111, 139);
     content: "●";
-    color: rgb(239,111,139);
 }
-div.contents p:nth-of-type(2)::first-letter {
+.contents p:nth-of-type(2)::first-letter{
     font-weight: bold;
-    color: rgb(97,206,249);
+    color: rgb(97, 206, 249);
+}
+
+.contents img{
+    margin: 10px 0;
+    width: 70%;
 }
 footer{
-    background-color: rgb(244,79,79);
+    background-color: rgb(244, 79, 79);
     text-align: center;
 }
 footer a{
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
 }
 footer a:visited{
-    color: rgb(193,234,251);
+    color: rgb(193, 234, 251);
 }
-footer a:hover{
-    color: rgb(245,178,168);
+footer:hover{
+    color: rgb(245, 178, 168);
 }
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px){
     h2{
         font-size: 30px;
     }
     p{
         font-size: 25px;
     }
-    div#parent{
-       flex-direction: column;
+    #parent{
+        flex-direction: column;
     }
+
 }
