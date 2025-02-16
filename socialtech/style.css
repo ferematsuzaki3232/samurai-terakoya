@@ -26,6 +26,13 @@ nav#nav-pc ul li a{
 nav#nav-pc ul li a:hover{
     text-decoration: underline;
 }
+
+/* スマホ用ナビを非表示 */
+#nav-sp,
+#menu-sp{
+  display: none;
+}
+/* スマホ用を非表示ここまで */
 section#main-visual{
     position: relative;
     height: 400px;
@@ -447,7 +454,6 @@ div#mission-flex{
     display: none;
     z-index: 100;
   }
-
   /* ×ボタン */
   #close {
     position: absolute;
@@ -468,8 +474,7 @@ div#mission-flex{
   /* ナビゲーションメニュー用ロゴ */
   #logo-sp {
     margin: 80px 0 30px 20px;
-  }
-
+  }  
   /* ナビゲーションのリンクの装飾設定 */
   #nav-sp nav a {
     display: block;
@@ -489,7 +494,6 @@ div#mission-flex{
     background-repeat: no-repeat;
     background-position: right top;
   }
-
   #sns {
     position: absolute;
     bottom: 20px;
@@ -499,5 +503,132 @@ div#mission-flex{
   #sns > a {
     margin-right: 30px;
   }
-}
 
+ /* メインビジュアル */
+   #main-visual {
+     position: relative;
+     height: 470px;
+   }
+ 
+   #main-visual > div {
+     text-align: center;
+     height: 280px;
+   }
+ 
+   #main-visual h1 {
+     font-size: 28px;
+     margin: 90px 0 0 0;
+   }
+ 
+   #main-visual > div > p {
+     margin: 0;
+     font-size: 15px;
+   }
+ 
+   #main-visual > img {
+     width: 100%;
+     border-radius: 476px 0 0 0;
+     top: auto;
+     bottom: 0;
+   }
+   /* 見出し */
+   h2{
+    margin: 15px 0 15px 0;
+   }
+   h3{
+    font-size: 24px;
+    margin: 10px 0 0 0;
+   }
+     /* ミッション */
+     #mission {
+      margin: 20px 0 20px 0;
+      padding: 0 20px 0 20px;
+    }
+  
+    #mission-flex {
+      flex-direction: column;
+    }
+  
+    #mission-flex > div {
+    width: 100%;
+    margin: 0;
+  }
+    /* プロダクト */
+    #product {
+      margin: 0;
+      padding: 10px 20px 0 20px;
+    }
+  
+    /* 外枠 */
+    #product .product-flex {
+      flex-direction: column;
+      margin-top: 0;
+    }
+  
+    /* 左右のカラム　スマホでは縦並び */
+    #product-left,
+    #product-right {
+      width: 100%;
+      margin: 0;
+    }
+  /*  画像＋説明の枠 */
+  #product-left > div,
+  #product-right > div {
+    height: auto;
+    margin: 0;
+  }
+
+  /* 説明文の枠 */
+  .product-explain {
+    position: relative;
+    margin: 0;
+  }
+
+  .product-explain > h3 {
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+  }
+
+ /* もっと見るボタン */
+   #product-more {
+     text-align: left;
+   }
+  /* ABOUT US */
+  #aboutus {
+    margin: 80px 20px 80px 20px;
+  }
+
+  #aboutus > div {
+    flex-direction: column;
+ }
+
+  .culture-table th {
+    font-size: 16px;
+  }
+
+  .culture-table {
+    margin-right: 0;
+    padding-right: 20px;
+    order: 2;
+  }
+
+  .culture-img {
+    width: 100%;
+    order: 1;
+  }
+
+  .culture-img2 {
+    margin-top: 0;
+  }
+
+  .culture-num {
+    padding: 0;
+  }
+
+  .culture-description {
+    margin: 0;
+  }
+
+
+
+}
