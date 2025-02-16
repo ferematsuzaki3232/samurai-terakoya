@@ -417,11 +417,8 @@ div#mission-flex{
   color: #ffffff;
   margin: 0;
 }
-
-
-
 /*====================
-スマートフォン用のスタイル
+ スマートフォン用のスタイル
 =====================*/
 @media screen and (max-width: 767px) {
   /* PC用ナビゲーション非表示 */
@@ -451,47 +448,49 @@ div#mission-flex{
     z-index: 100;
   }
 
-   /* ×ボタン */
-   #close {
-     position: absolute;
-     top: 20px;
-     right: 20px;
-     background-color: transparent;
-     border: none;
-   }
- 
-   #nav-sp nav ul {
-     padding-left: 0;
-   }
- 
-   #nav-sp nav li {
-     list-style: none;
-   }
- 
-   /* ナビゲーションメニュー用ロゴ */
-   #logo-sp {
-     margin: 80px 0 30px 20px;
-   } 
+  /* ×ボタン */
+  #close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+  }
+
+  #nav-sp nav ul {
+    padding-left: 0;
+  }
+
+  #nav-sp nav li {
+    list-style: none;
+  }
+
+  /* ナビゲーションメニュー用ロゴ */
+  #logo-sp {
+    margin: 80px 0 30px 20px;
+  }
+
   /* ナビゲーションのリンクの装飾設定 */
   #nav-sp nav a {
     display: block;
     color: #ffffff;
   }
- 
+
   #nav-sp nav a:hover {
-     text-decoration: underline;
-   }
- 
-   #nav-sp .menu {
-     text-decoration: none;
-     margin: 0 20px 0 20px;
-     height: 44px;
-     font-size: 16px;
-     background-image: url("images/arrow.png");
-     background-repeat: no-repeat;
-     background-position: right top;
-   }
-   #sns {
+    text-decoration: underline;
+  }
+
+  #nav-sp .menu {
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    height: 44px;
+    font-size: 16px;
+    background-image: url("images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  #sns {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -501,3 +500,4 @@ div#mission-flex{
     margin-right: 30px;
   }
 }
+
