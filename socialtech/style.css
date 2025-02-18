@@ -424,6 +424,168 @@ div#mission-flex{
   color: #ffffff;
   margin: 0;
 }
+ /* mission.html用スタイル */
+ /* ミッションのメインビジュアル */
+ .mission-main-inner {
+  background-image: url("images/mission/mission-main.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+#mission-title {
+  background-color: #2710d5;
+  width: 368px;
+  color: #ffffff;
+  height: 496px;
+  border-radius: 0 248px 248px 0;
+  position: relative;
+}
+
+#mission-title h1 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  font-size: 80px;
+  line-height: 1;
+}
+
+#mission-title h1 span {
+  font-size: 26px;
+}
+
+#mission-title > p {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  font-size: 16px;
+}
+#mission-s2dgs{
+  padding: 20px;
+}
+.mission-h2{
+  color: #2710d5;
+  font-size: 40px;
+}
+.mission-h2::after{
+  content: none;
+}
+
+/* 5Goals */
+#mission-five-goals{
+  padding: 20px;
+  display: flex;
+}
+#mission-five-goals .five-goals-image{
+  width: 30%;
+  padding: 20px;
+}
+#mission-five-goals .five-goals-image img{
+ width: 100%;
+}
+#mission-five-goals .five-goals-read{
+  width: 70%;
+  padding: 20px;
+}
+#mission-five-goals .five-goals-read > div {
+  margin-bottom: 40px;
+}
+.fivegoals-image-right{
+  float: right;
+  margin: 20px;
+}
+.fivegoals-image-left{
+  float: left;
+  margin: 20px;
+}
+.fivegoals-number{
+  color: #2710d5;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.fivegoals-h3{
+  font-size: 28px;
+  margin: 0;
+}
+.fivegoals-p{
+  margin: 0;
+
+}
+/* プロダクト */
+.product-main-inner{
+  background-image: url(images/product/product-main.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+#product-title{
+  background-color: #2710d5;
+  width: 368px;
+  color: #fff;
+  height: 496px;
+  border-radius: 0 248px 248px 0;
+  position: relative;
+}
+#product-title h1{
+  position: absolute;
+  top: 0;
+  left: 100px;
+  font-size: 80px;
+  line-height: 1;
+}
+#product-title h1 span{
+  font-size: 26px;
+}
+#product-title > p{
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  font-size: 16px;
+}
+/* メインコンテンツにPC用のスタイルを適用しよう */
+/* セクション */
+.product-section{
+  display: flex;
+  padding: 20px 20px 0;
+}
+.product-section .product-section-img{
+  width: 450px;
+}
+ /* 左が画像のセクション*/
+.product-section-left .product-section-img img{
+  width: 100%;
+  padding: 0 40px 30px 0;
+  border-radius: 0 432px 0 0;
+}
+.product-section-left .product-read{
+  width: 50%;
+  flex-grow: 1;
+}
+.product-section-left .product-read p{
+  margin-bottom: 0;
+}
+ /* 右が画像のセクション*/
+.product-section-right{
+  justify-content: space-between;
+}
+.product-section-right .product-section-img img{
+  width: 100%;
+  padding: 0 0 30px 40px;
+  border-radius: 432px 0 0 0;
+}
+.product-section-right .product-read{
+  width: 500px;
+}
+.product-h2{
+  color: #2710d5;
+  font-size: 24px;
+  margin: 0;
+}
+.product-h3{
+  font-size: 28px;
+  margin: 0;
+}
+
+
 /*====================
  スマートフォン用のスタイル
 =====================*/
@@ -722,4 +884,66 @@ div#mission-flex{
     font-size: 12px;
     margin-top: 30px;
   }
+  /* ミッション */
+  #mission-main{
+    height: 256px;
+    margin-top: 4%;
+    position: relative;
+  }
+  .mission-main-inner{
+    height: 80%;
+    background-size: cover;
+  }
+  #mission-title{
+    width: 136px;
+    height: 256px;
+    position: absolute;
+    top: -10%;
+  }
+  #mission-title h1{
+    left: 20px;
+    font-size: 40px;
+  }
+  #mission-title h1 span{
+    font-size: 18px;
+  }
+  #mission-title > p{
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
+  .mission-h2{
+    font-size: 38px;
+    margin: 0px;
+  }
+  .mission-h2::after{
+    content: none;
+  }
+  #mission-s2dgs > img{
+    width: 100%;
+  }
+  /* ミッションページ　5つのゴールの設定 */
+  #mission-five-goals{
+    flex-direction: column;
+  }
+  #mission-five-goals > div{
+    padding: 0;
+  }
+  #mission-five-goals .five-goals-image, #mission-five-goals .five-goals-read{
+    width: 100%;
+    padding: 0;
+  }
+  #mission-five-goals .five-goals-read > div{
+    display: flex;
+    flex-direction: column;
+  }
+  .fivegoals-image-right, .fivegoals-image-left{
+    align-self: center;
+  }
+
+
+
+
+
+
 }
