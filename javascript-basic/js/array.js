@@ -46,6 +46,5 @@ console.log(userNames);
 // 配列の要素数を数えるには、lengthプロパティを使います。lengthプロパティは、文字列の文字数や配列の要素数を取得するプロパティです。
 // 配列の宣言と値の代入を行う
 // const userNames = ['侍太郎', '侍一郎', '侍二郎', '侍三郎', '侍四郎'];
-
 // 配列の要素数を出力
 // console.log(userNames.length);
