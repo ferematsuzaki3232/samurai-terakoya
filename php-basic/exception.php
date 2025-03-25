@@ -12,9 +12,9 @@
         try {
             // 現在の日付を取得
             $now = new DateTime();
-            // $my_date = new DateTime('2019-05-01');
-            // $my_date = new DateTime('dummy-date');
             $my_date = new DateTime('3000-12-31');
+            // $my_date = new DateTime('dummy-date');
+            // $my_date = new DateTime('2019-05-01');
 
             // 指定された日付が未来の場合は例外をスロー
             if( $now < $my_date ) {
@@ -32,6 +32,8 @@
         }
         ?>
     </p>
+    <!-- XAMPP（Windows）：localhost/php-basic/exception.php -->
+    <!-- MAMP（Mac）：localhost:8888/php-basic/exception.php -->
 </body>
 
 </html>
